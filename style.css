@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar */
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 18px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0px 5px;
+}
+
+/* section first  */
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin: 60px;
+    text-align: center;
+}
+
+.first span {
+    font-size: 50px;
+}
+
+.first span img {
+    margin: 0px 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 75vw;
+    text-align: center;
+}
+
+.first button {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+/* section second */
+.second {
+    max-width: 70vw;
+    margin: auto;
+
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.btn {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor:  ;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.item {
+    padding: 23px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.lang {
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    gap: 25px 20px;
+
+}
+
+.large {
+    font-size: 23px;
+}
+
+@media screen and (max-width : 800px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 330px;
+        gap: 25px 20px;
+        /* background-color: red; */
+    }
+
+}
